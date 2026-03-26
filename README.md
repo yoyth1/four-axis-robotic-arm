@@ -13,17 +13,17 @@
 
 ### 结构图与样机实物
 
-![Rendering](asset/Rendering.jpg)
-![3D Model](asset/3D%20model.png)
+![Rendering](assets/Rendering.jpg)
+![3D Model](assets/3D%20model.png)
 
 ### 系统电路
 
-![Driver Board](asset/Driver%20board.jpg)
-![Circuit Diagram](asset/Circuit%20Diagram.png)
+![Driver Board](assets/Driver%20board.jpg)
+![Circuit Diagram](assets/Circuit%20Diagram.png)
 
 ### 上位机界面
 
-![Host Interface](asset/Host%20Interface.png)
+![Host Interface](assets/Host%20Interface.png)
 
 ## 仓库结构
 
@@ -32,7 +32,7 @@
 | `app/` | Unity 3D 上位机程序（当前仓库为构建产物） |
 | `matlab/` | 运动学验证代码（含 D-H 建模与逆解相关脚本） |
 | `model/` | 机械臂 3D 模型导出文件（`obj/`、`3ds/`） |
-| `asset/` | README 图片、电路图、机械图纸等资料 |
+| `assets/` | README 图片、电路图、机械图纸等资料 |
 | `Stm32_Project/` | STM32 下位机控制代码（Keil 工程） |
 
 ## DH 参数与正逆运动学
