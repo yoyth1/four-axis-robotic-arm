@@ -52,19 +52,6 @@
 ### 正运动学
 
 将各关节 D-H 变换矩阵依次右乘，得到末端相对基座的总变换矩阵：
-
-$$
-{}^0T_H = A_1 A_2 A_3 A_4 A_5
-=
-\begin{bmatrix}
-n & o & a & p
-\end{bmatrix}
-$$
-
-其中方向向量 $n, o, a$ 描述末端姿态，位置向量 $p = (p_x, p_y, p_z)$ 描述末端在基坐标系中的坐标。
-
-各关节变换矩阵（$C_i = \cos\theta_i,\ S_i = \sin\theta_i$）：
-
 $$
 A_1 =
 \begin{bmatrix}
@@ -115,7 +102,7 @@ S_5 & 0 & -C_5 & 0 \\
 \end{bmatrix}
 $$
 
-总变换矩阵展开式（其中 $C_{ij} = \cos(\theta_i+\theta_j)$，以此类推）：
+总变换矩阵展开式：
 
 $$
 {}^0T_H =
@@ -146,13 +133,13 @@ $$
 **① 求 $\theta_5$**：由总变换矩阵 $(3,2)$ 元素对应关系得
 
 $$
-\theta_5 = \arctan\!\left(\frac{a_z}{n_z}\right)
+\theta_5 = \arctan\left(\frac{a_z}{n_z}\right)
 $$
 
 **② 求 $\theta_1$**：由 $(1,4)$、$(2,4)$ 元素得
 
 $$
-\theta_1 = \arctan\!\left(\frac{p_y - d_5 o_y}{p_x - d_5 o_x}\right)
+\theta_1 = \arctan\left(\frac{p_y - d_5 o_y}{p_x - d_5 o_x}\right)
 $$
 
 **③ 求 $\theta_3$**：利用 $\theta_1$ 已知，由 $(2,4)$、$(3,4)$ 建立方程后两边平方相加，利用 $S_2 S_{23} + C_2 C_{23} = C_3$ 化简得
@@ -170,7 +157,7 @@ $$
 
 $$
 \theta_3 =
-\arctan\!\left(\frac{\pm\sqrt{1-C_3^2}}{C_3}\right)
+\arctan\left(\frac{\pm\sqrt{1-C_3^2}}{C_3}\right)
 $$
 
 **④ 求 $\theta_2$**：令 $\tan\phi = \dfrac{a_3 S_3}{a_3 C_3 + a_2}$，则
