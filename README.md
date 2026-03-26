@@ -31,7 +31,7 @@
 |---|---|
 | `app/` | Unity 3D 上位机程序（当前仓库为构建产物） |
 | `matlab/` | 运动学验证代码（含 D-H 建模与逆解相关脚本） |
-| `model/` | 机械臂 3D 模型导出文件（`obj/`、`3ds/`） |
+| `model/` | 机械臂 3D 模型Solidworks文件 |
 | `assets/` | README 图片、电路图、机械图纸等资料 |
 | `Stm32_Project/` | STM32 下位机控制代码（Keil 工程） |
 
