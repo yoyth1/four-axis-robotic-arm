@@ -1,0 +1,11 @@
+# Keil MDK 编译产物
+Stm32_Project/Objects/
+Stm32_Project/Listings/
+
+# Keil 用户私有工作区配置
+Stm32_Project/*.uvguix.*
+
+# macOS / Windows 系统垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
