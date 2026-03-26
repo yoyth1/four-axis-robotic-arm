@@ -52,6 +52,7 @@
 ### 正运动学
 
 将各关节 D-H 变换矩阵依次右乘，得到末端相对基座的总变换矩阵：
+
 $$
 A_1 =
 \begin{bmatrix}
@@ -164,7 +165,7 @@ $$
 
 $$
 \theta_2 =
-\arcsin\!\left(
+\arcsin\left(
 \frac{d_5 o_z - p_z}{\sqrt{a_2^2 + a_3^2 + 2 a_2 a_3 C_3}}
 \right) - \phi
 $$
