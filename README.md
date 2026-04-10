@@ -197,6 +197,9 @@ $$
 
 - 程序路径：`app/`
 - 说明：当前仓库目前仅提供上位机构建结果，可直接运行并与下位机联调。
+  
+### 演示视频
+- https://www.bilibili.com/video/BV1QucRzZEsu/?vd_source=743b9fd8168666d94b81cdd6a7604898#reply116205826345706
 
 ## 开源说明
 
