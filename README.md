@@ -14,6 +14,7 @@
 ### 结构图与样机实物
 
 ![Rendering](assets/Rendering.jpg)
+![Mechanical drawings.png](assets/Mechanical%20drawings.png)
 ![3D Model](assets/3D%20model.png)
 
 ### 系统电路
